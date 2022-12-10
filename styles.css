@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgba(236, 226, 226, 0.694);
+    width: 234px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 22px;
+    width: 18vw;
+    
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 34px;
+    height: 36px;
+}
+.sidebar nav li a{
+     text-decoration: none;
+     color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    height: 84vw;
+    width: 82vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(234, 32, 146); */
+    height: 49vh;
+    width: 73vw;
+    margin: 67px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 67px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.name {
+    font-size: 50px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about {
+    font-size: 35px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.moreabout {
+    font-size: 25px;
+    margin-top: 23px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.button {
+    margin-top: 34px;
+}
+
+.button button {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(50 131 239 / 96%);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button button:hover {
+    background-color: white;
+    color: rgb(50 131 239 / 96%);
+    
+}
+.devPic {
+    height: 49vh;
+    width: 30vh;
+}
+.contactform{
+    padding: 0 34px;
+    padding: 102px;
+ font-family:'Fira Sans',sans-serif;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px, 0px;
+}
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+#emailHelp{
+    font-size:8px ; 
+    color: rgba(26, 14, 243, 0.658);
+    margin: 0px 5px;
+}
+
+.form-control{
+    width: 22vw;
+    border-radius: 5px;
+    margin: 4px;
+} 
+#form-check{
+    flex-direction: row;
+}
